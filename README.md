@@ -1,6 +1,7 @@
-🎓 Certificate Credit Points Validation System
+#🎓 Certificate Credit Points Validation System
+
 A LangGraph-powered React Agent that validates professional certificates from Credly badges, checks expiration status, and calculates credit points automatically.
-✨ Features
+#✨ Features
 
 🔍 Credly Badge Parsing - Automatically extracts certificate information from Credly badge URLs
 ⏰ Expiration Validation - Checks if certificates are still valid or have expired
@@ -9,14 +10,14 @@ A LangGraph-powered React Agent that validates professional certificates from Cr
 🚀 Fast & Free - Powered by Groq API for lightning-fast LLM inference
 📊 Multi-Certificate Support - Calculate total credits for multiple certifications
 
-🎯 Use Cases
+#🎯 Use Cases
 
 Educational institutions tracking student certifications
 Companies managing employee professional development credits
 Training programs validating completion certificates
 HR departments tracking team certifications
 
-🛠️ Technology Stack
+#🛠️ Technology Stack
 
 LangGraph - Agent orchestration framework
 LangChain - LLM application framework
@@ -24,13 +25,13 @@ Groq API - Fast, free LLM inference (Llama 3.1)
 Selenium - Web scraping for Credly badges
 Python 3.8+ - Core programming language
 
-📋 Prerequisites
+#📋 Prerequisites
 
 Python 3.8 or higher
 Chrome/Chromium browser (for Selenium)
 Groq API key (free at console.groq.com)
 
-🚀 Installation
+#🚀 Installation
 1. Clone the Repository
 bashgit clone https://github.com/yourusername/certificate-validation-system.git
 cd certificate-validation-system
