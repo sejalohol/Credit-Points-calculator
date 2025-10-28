@@ -1,6 +1,7 @@
 #🎓 Certificate Credit Points Validation System
 
 A LangGraph-powered React Agent that validates professional certificates from Credly badges, checks expiration status, and calculates credit points automatically.
+
 #✨ Features
 
 🔍 Credly Badge Parsing - Automatically extracts certificate information from Credly badge URLs
