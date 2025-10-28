@@ -65,40 +65,12 @@ pip install langgraph langchain langchain-groq selenium webdriver-manager python
 set GROQ_API_KEY=your-key-here
 ```
 
-#### Windows (PowerShell):
-
-```powershell
-$env:GROQ_API_KEY='your-key-here'
+```cmd
+set LANGSMITH_API_KEY=your-key-here
 ```
 
-#### Linux/Mac:
 
-```bash
-export GROQ_API_KEY='your-key-here'
-```
 
-### 4️⃣ Prepare Certificate Database
-
-Create a file named `certificate.json`:
-
-```json
-[
-  {
-    "certificate_name": "HashiCorp Certified: Terraform Associate",
-    "credit_points": 5.0
-  },
-  {
-    "certificate_name": "AWS Certified Solutions Architect - Professional",
-    "credit_points": 10.0
-  },
-  {
-    "certificate_name": "Certified Kubernetes Administrator (CKA)",
-    "credit_points": 7.0
-  }
-]
-```
-
----
 
 ## 💻 Usage
 
@@ -131,17 +103,7 @@ python react_agent_hw.py
 
 ---
 
-## 🔧 LangGraph Server Deployment
 
-You can deploy this agent as a LangGraph server:
-
-```bash
-langgraph up
-```
-
-The graph object is exported at the module level for LangGraph compatibility.
-
----
 
 ## 🏗️ Project Structure
 
@@ -151,7 +113,7 @@ certificate-validation-system/
 ├── certificate.json            # Certificate database
 ├── README.md                   # This file
 ├── requirements.txt            # Dependencies
-└── .gitignore                  # Environment and cache ignores
+└── certificate_hw.py           # Main agent implementation
 ```
 
 ---
@@ -205,12 +167,3 @@ The parser handles multiple date formats:
 
 ---
 
-## 🧠 Author
-
-Created by **Sejal** — for automating professional certificate validation using LangGraph + Groq API.
-
----
-
-## ⚖️ License
-
-This project is open-source under the **MIT License**.
